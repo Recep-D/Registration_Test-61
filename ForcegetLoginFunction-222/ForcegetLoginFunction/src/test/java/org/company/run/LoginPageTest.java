@@ -12,6 +12,7 @@ public class LoginPageTest {
     public static BrowserFactory browserFactory;
     public static Page page;
 
+    //test
     @BeforeAll
     public static void generalSetUp() {
         String browserFromConfig = ConfigurationReader.getProperty("browserName");
